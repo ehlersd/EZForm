@@ -31,6 +31,7 @@
 - (void)formFieldDidBeginEditing:(EZFormField *)formField;
 - (void)formFieldDidChangeValue:(EZFormField *)formField;
 - (UIView *)inputAccessoryView;
+- (void)updateInputAccessoryForEditingFormField:(EZFormField *)formField;
 
 @end
 
